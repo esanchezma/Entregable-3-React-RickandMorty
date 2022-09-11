@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+
+* {
+  font-family: sans-serif;
+  color: white;
+  box-sizing: border-box;
+}
+
+.banner{
+  background-image: url('https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/QQWVSJ6MDVGKRELX455KIABEEY.gif');
+  height: 200px;
+  background-position: 45% 33%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Pangolin", sans-serif;
+  font-size: 3rem;
+}
+h3 {
+  font-family: "Pangolin", sans-serif;
+  font-size: 1.8rem;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Pangolin", sans-serif;
+  margin: 19.92px 0px;
+   padding: 2px;
+}
+
+ 
+ input,button { 
+  text-align: center;
+  background: #443737; 
+  height: 40px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  padding: 10px;
+  outline: 0;
+   
+}
+
+ 
+
+/* Generic classes */
+
+.col-md , .col {
+  padding: 5px;
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  padding: 15px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.card {
+    display: flex;
+    margin-bottom: 20px;
+    height: 160px;
+    background: #3d3535;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+   
+  }
+  p {
+    margin: 0 0 8px 0;
+  }
+  
+  .card img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .info {
+    padding: 8px 0 0 10px;
+    
+  }
+  .info li {
+    list-style: none;
+    
+  }
+  .circle {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 50%;
+  }
+  
+  
+  .green {
+    background: green;
+  }
+  
+  
+  .description {
+    font-size: 0.8rem;
+    margin-bottom: 3.5px;
+    color: rgba(255, 255, 255, 0.4);
+  }
+  
+  
+  @media (min-width: 576px) {
+    
+   .container {
+      max-width: 579px;
+    }
+
+   .col {
+    width: 33.333%;
+   }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+   }
+
+  .info {
+      padding: 8px 0 0 20px;
+    }
+
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .col-md {
+    width: 50%;
+  }
+  .col {
+    width: 33.333%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+     max-width: 976px; 
+  }
+}
+
